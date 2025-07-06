@@ -110,7 +110,7 @@ setInterval(() => {
   app.get("/", (req, res) => {
     res.json({
       status: "success",
-      message: "Backend API is live on Railway 🚀",
+      message: "Backend API is live on Hostinger 🚀",
       timestamp: new Date(),
     });
   });
